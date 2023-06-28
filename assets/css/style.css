@@ -438,9 +438,10 @@ h6 {
 @media (min-width: 300px) {
   /* Apply styles only for screens with a minimum width of 768 pixels (larger screens) */
   #hero .col-lg-6 img {
-    width: 100%; /* Increase the image width to 70% on larger screens */
-    max-width:100%; /* Adjust the maximum width proportionally */
+    width: 75%; /* Increase the image width to 70% on larger screens */
+    max-width:75%; /* Adjust the maximum width proportionally */
     max-height: 100vh; /* Adjust the maximum height proportionally */
+    margin-left: 30px;
   }
 }
 
